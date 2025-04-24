@@ -1,0 +1,1 @@
+print("kya dekh raha hai bsdk")

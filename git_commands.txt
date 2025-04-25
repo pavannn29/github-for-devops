@@ -1,3 +1,14 @@
-git status 
-git add. 
-git commit -m "added testing files" 
+basic commands of github:
+
+git status - check repo status 
+git add. - stage all file 
+git commit -m "added testing files" - commit stage changes 
+git clone <url> - clone an existing repo 
+git init - initialize a new git repo
+git remote add origin <url> - add a remote repo 
+git push -v origin - push to main branch 
+git push - push changes 
+git pull - pull latest changes 
+
+intermediate commands of github:
+

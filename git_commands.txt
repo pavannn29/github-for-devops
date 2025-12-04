@@ -1,0 +1,17 @@
+1)SETUP & INIT
+Configuring user information, initializing and cloning repositories
+
+1. git init - initialize an existing directory as a Git repository
+2. git clone [url] - retrieve an entire repository from a hosted location via URL
+
+2) STAGE & SNAPSHOT
+Working with snapshots and the Git staging area
+
+1. git status - show modified files in working directory, staged for your next commit
+2. git add [file] - add a file as it looks now to your next commit (stage)
+3. git reset [file] - unstage a file while retaining the changes in working directory
+4. git diff- diff of what is changed but not staged
+5. git diff --staged - diff of what is staged but not yet committed
+6. git commit -m “[descriptive message]” - commit your staged content as a new commit snapshot
+
+

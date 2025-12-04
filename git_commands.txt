@@ -15,7 +15,7 @@ Working with snapshots and the Git staging area
 6. git commit -m “[descriptive message]” - commit your staged content as a new commit snapshot
 
 
-BRANCH & MERGE
+3) BRANCH & MERGE
 Isolating work in branches, changing context, and integrating changes
 
 1. git branch - list your branches. a * will appear next to the currently active branch

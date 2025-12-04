@@ -15,3 +15,11 @@ Working with snapshots and the Git staging area
 6. git commit -m “[descriptive message]” - commit your staged content as a new commit snapshot
 
 
+BRANCH & MERGE
+Isolating work in branches, changing context, and integrating changes
+
+1. git branch - list your branches. a * will appear next to the currently active branch
+2. git branch [branch-name] - create a new branch at the current commit
+3. git checkout - switch to another branch and check it out into your working directory
+4. git merge [branch] - merge the specified branch’s history into the current one
+5. git log - show all commits in the current branch’s history

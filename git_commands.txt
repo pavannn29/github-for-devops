@@ -23,3 +23,12 @@ Isolating work in branches, changing context, and integrating changes
 3. git checkout - switch to another branch and check it out into your working directory
 4. git merge [branch] - merge the specified branch’s history into the current one
 5. git log - show all commits in the current branch’s history
+
+4) SHARE & UPDATE
+Retrieving updates from another repository and updating local repos
+
+1. git remote add [alias] [url] - add a git URL as an alias
+2. git fetch [alias] - fetch down all the branches from that Git remote
+3. git merge [alias]/[branch] - merge a remote branch into your current branch to bring it up to date
+4. git push [alias] [branch] - Transmit local branch commits to the remote repository branch
+5. git pull - fetch and merge any commits from the tracking remote branch
